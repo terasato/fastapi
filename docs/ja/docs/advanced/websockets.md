@@ -1,6 +1,6 @@
 # WebSocket
 
-**FastAPI**で<a href="https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API" class="external-link" target="_blank">WebSocket</a>が使用できます。
+**FastAPI** で<a href="https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API" class="external-link" target="_blank">WebSocket</a>が使用できます。
 
 ## `WebSockets`のインストール
 
@@ -92,7 +92,7 @@ $ uvicorn main:app --reload
 
 <img src="/img/tutorial/websockets/image02.png">
 
-そして、 WebSocketを使用した**FastAPI**アプリケーションが応答します。
+そして、 WebSocketを使用した **FastAPI** アプリケーションが応答します。
 
 <img src="/img/tutorial/websockets/image03.png">
 

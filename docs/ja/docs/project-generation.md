@@ -10,10 +10,10 @@ GitHub: <a href="https://github.com/tiangolo/full-stack-fastapi-postgresql" clas
 
 ### フルスタック FastAPI PostgreSQL - 機能
 
-* 完全な**Docker**インテグレーション (Dockerベース)。
+* 完全な **Docker** インテグレーション (Dockerベース)。
 * Docker Swarm モードデプロイ。
-* ローカル開発環境向けの**Docker Compose**インテグレーションと最適化。
-* UvicornとGunicornを使用した**リリース可能な** Python web サーバ。
+* ローカル開発環境向けの **Docker Compose** インテグレーションと最適化。
+* UvicornとGunicornを使用した **リリース可能な** Python web サーバ。
 * Python <a href="https://github.com/fastapi/fastapi" class="external-link" target="_blank">**FastAPI**</a> バックエンド:
     * **高速**: **NodeJS** や **Go** 並みのとても高いパフォーマンス (Starlette と Pydantic のおかげ)。
     * **直感的**: 素晴らしいエディタのサポートや <abbr title="自動補完、インテリセンスとも呼ばれる">補完。</abbr> デバッグ時間の短縮。
@@ -29,27 +29,27 @@ GitHub: <a href="https://github.com/tiangolo/full-stack-fastapi-postgresql" clas
 * **Alembic** マイグレーション。
 * **CORS** (Cross Origin Resource Sharing (オリジン間リソース共有))。
 * **Celery** ワーカー。バックエンドの残りの部分からモデルとコードを選択的にインポートし、使用可能。
-* Dockerと統合された**Pytest**ベースのRESTバックエンドテスト。データベースに依存せずに、全てのAPIをテスト可能。Docker上で動作するので、毎回ゼロから新たなデータストアを構築可能。(ElasticSearch、MongoDB、CouchDBなどを使用して、APIの動作をテスト可能)
-* Atom HydrogenやVisual Studio Code Jupyterなどの拡張機能を使用した、リモートまたはDocker開発用の**Jupyterカーネル**との簡単なPython統合。
+* Dockerと統合された **Pytest** ベースのRESTバックエンドテスト。データベースに依存せずに、全てのAPIをテスト可能。Docker上で動作するので、毎回ゼロから新たなデータストアを構築可能。(ElasticSearch、MongoDB、CouchDBなどを使用して、APIの動作をテスト可能)
+* Atom HydrogenやVisual Studio Code Jupyterなどの拡張機能を使用した、リモートまたはDocker開発用の **Jupyterカーネル** との簡単なPython統合。
 * **Vue** フロントエンド:
     * Vue CLIにより生成。
-    * **JWT認証**の処理。
+    ** *JWT認証** の処理。
     * ログインビュー。
     * ログイン後の、メインダッシュボードビュー。
     * メインダッシュボードでのユーザー作成と編集。
     * セルフユーザー版
-    * **Vuex**。
-    * **Vue-router**。
-    * 美しいマテリアルデザインコンポーネントのための**Vuetify**。
-    * **TypeScript**。
-    * **Nginx**ベースのDockerサーバ (Vue-routerとうまく協調する構成)。
+    * **Vuex** 。
+    * **Vue-router** 。
+    * 美しいマテリアルデザインコンポーネントのための **Vuetify** 。
+    * **TypeScript** 。
+    * **Nginx** ベースのDockerサーバ (Vue-routerとうまく協調する構成)。
     * Dockerマルチステージビルド。コンパイルされたコードの保存やコミットが不要。
     * ビルド時にフロントエンドテスト実行 (無効化も可能)。
     * 可能な限りモジュール化されているのでそのまま使用できますが、Vue CLIで再生成したり、必要に応じて作成したりして、必要なものを再利用可能。
-* PostgreSQLデータベースのための**PGAdmin**。(PHPMyAdminとMySQLを使用できるように簡単に変更可能)
-* Celeryジョブ監視のための**Flower**。
+* PostgreSQLデータベースのための **PGAdmin** 。(PHPMyAdminとMySQLを使用できるように簡単に変更可能)
+* Celeryジョブ監視のための **Flower** 。
 * **Traefik**を使用してフロントエンドとバックエンド間をロードバランシング。同一ドメインに配置しパスで区切る、ただし、異なるコンテナで処理。
-* Traefik統合。Let's Encrypt **HTTPS**証明書の自動生成を含む。
+* Traefik統合。Let's Encrypt **HTTPS** 証明書の自動生成を含む。
 * GitLab **CI** (継続的インテグレーション)。フロントエンドおよびバックエンドテストを含む。
 
 ## フルスタック FastAPI Couchbase

@@ -2,7 +2,7 @@
 
 **FastAPI** の *path operation* では、通常は任意のデータを返すことができます: 例えば、 `dict`、`list`、Pydanticモデル、データベースモデルなどです。
 
-デフォルトでは、**FastAPI** は [JSON互換エンコーダ](../tutorial/encoder.md){.internal-link target=_blank} で説明されている `jsonable_encoder` により、返す値を自動的にJSONに変換します。
+デフォルトでは、 **FastAPI** は [JSON互換エンコーダ](../tutorial/encoder.md){.internal-link target=_blank} で説明されている `jsonable_encoder` により、返す値を自動的にJSONに変換します。
 
 このとき背後では、JSON互換なデータ (例えば`dict`) を、クライアントへ送信されるレスポンスとして利用される `JSONResponse` の中に含めます。
 
@@ -20,7 +20,7 @@
 
 ///
 
-`Response` を返した場合は、**FastAPI** は直接それを返します。
+`Response` を返した場合は、 **FastAPI** は直接それを返します。
 
 それは、Pydanticモデルのデータ変換や、コンテンツを任意の型に変換したりなどはしません。
 
@@ -48,7 +48,7 @@
 
 ## カスタム `Response` を返す
 
-上記の例では必要な部分を全て示していますが、あまり便利ではありません。`item` を直接返すことができるし、**FastAPI** はそれを `dict` に変換して `JSONResponse`　に含めてくれるなど。すべて、デフォルトの動作です。
+上記の例では必要な部分を全て示していますが、あまり便利ではありません。`item` を直接返すことができるし、 **FastAPI** はそれを `dict` に変換して `JSONResponse`　に含めてくれるなど。すべて、デフォルトの動作です。
 
 では、これを使ってカスタムレスポンスをどう返すか見てみましょう。
 

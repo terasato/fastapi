@@ -1,6 +1,6 @@
 # カスタムレスポンス - HTML、ストリーム、ファイル、その他のレスポンス
 
-デフォルトでは、**FastAPI** は `JSONResponse` を使ってレスポンスを返します。
+デフォルトでは、 **FastAPI** は `JSONResponse` を使ってレスポンスを返します。
 
 [レスポンスを直接返す](response-directly.md){.internal-link target=_blank}で見たように、 `Response` を直接返すことでこの挙動をオーバーライドできます。
 
@@ -103,7 +103,7 @@
 
 この例では、関数 `generate_html_response()` は、`str` のHTMLを返すのではなく `Response` を生成して返しています。
 
-`generate_html_response()` を呼び出した結果を返すことにより、**FastAPI** の振る舞いを上書きする `Response` が既に返されています。
+`generate_html_response()` を呼び出した結果を返すことにより、 **FastAPI** の振る舞いを上書きする `Response` が既に返されています。
 
 しかし、一方では `response_class` に `HTMLResponse` を渡しているため、 **FastAPI** はOpenAPIや対話的ドキュメントでHTMLとして `text/html` でドキュメント化する方法を知っています。
 
@@ -158,7 +158,7 @@ FastAPI (実際にはStarlette) は自動的にContent-Lengthヘッダーを含�
 
 データを受け取り、 `application/json` としてエンコードされたレスポンスを返します。
 
-上で読んだように、**FastAPI** のデフォルトのレスポンスとして利用されます。
+上で読んだように、 **FastAPI** のデフォルトのレスポンスとして利用されます。
 
 ### `ORJSONResponse`
 

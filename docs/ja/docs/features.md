@@ -96,13 +96,13 @@ my_second_user: User = User(**second_user_data)
 
 ### 簡潔
 
-すべてに適切な**デフォルト**があり、オプションの構成ができます。必要なことを実行し、必要なAPIを定義するためにすべてのパラメーターを調整できます。
+すべてに適切な **デフォルト** があり、オプションの構成ができます。必要なことを実行し、必要なAPIを定義するためにすべてのパラメーターを調整できます。
 
-ただし、デフォルトでもすべて **うまくいきます**。
+ただし、デフォルトでもすべて **うまくいきます** 。
 
 ### 検証
 
-* 以下の様な、ほとんどの（すべての？）Python **データ型**の検証:
+* 以下の様な、ほとんどの（すべての？）Python **データ型** の検証:
      * JSONオブジェクト（`dict`）
      * 項目の型を定義するJSON配列（`list`）
      * 最小長と最大長のある文字列（`str`）フィールド
@@ -123,13 +123,13 @@ my_second_user: User = User(**second_user_data)
 以下のOpenAPIで定義されているすべてのセキュリティスキームを含む:
 
 * HTTPベーシック
-* **OAuth2**（**JWTトークン**も使用）。 JWTを使用したOAuth2のチュートリアル（[OAuth2 with JWT](tutorial/security/oauth2-jwt.md){.internal-link target=_blank}）を確認してください。
+* **OAuth2**（**JWTトークン** も使用）。 JWTを使用したOAuth2のチュートリアル（[OAuth2 with JWT](tutorial/security/oauth2-jwt.md){.internal-link target=_blank}）を確認してください。
 * APIキー：
      * ヘッダー
      * クエリパラメータ
      * クッキー、等
 
-さらに、Starletteのすべてのセキュリティ機能も含みます（**セッションCookie**を含む）。
+さらに、Starletteのすべてのセキュリティ機能も含みます（**セッションCookie** を含む）。
 
 これらは、システム、データストア、リレーショナルデータベース、NoSQLデータベースなどと簡単に統合できる再利用可能なツールとコンポーネントとして構築されています。
 
@@ -139,11 +139,11 @@ FastAPIには非常に使いやすく、非常に強力な<abbr title='also know
 
 * 依存関係でさえも依存関係を持つことができ、階層または **依存関係の"グラフ"** を作成することができます。
 
-* フレームワークによってすべて**自動的に処理**されます。
-* すべての依存関係はリクエストからのデータを要請できて、**path operationsの制約と自動ドキュメンテーションを拡張できます**。
-* 依存関係で定義された *path operation* パラメータも**自動検証**が可能です。
-* 複雑なユーザー認証システム、**データベース接続**などのサポート
-* **データベース、フロントエンドなどに対する妥協はありません**。それらすべてと簡単に統合できます。
+* フレームワークによってすべて **自動的に処理** されます。
+* すべての依存関係はリクエストからのデータを要請できて、 **path operationsの制約と自動ドキュメンテーションを拡張できます**。
+* 依存関係で定義された *path operation* パラメータも **自動検証** が可能です。
+* 複雑なユーザー認証システム、 **データベース接続** などのサポート
+* **データベース、フロントエンドなどに対する妥協はありません** 。それらすべてと簡単に統合できます。
 
 ### 無制限の「プラグイン」
 
@@ -160,13 +160,13 @@ FastAPIには非常に使いやすく、非常に強力な<abbr title='also know
 
 ## Starletteの機能
 
-**FastAPI**は、<a href="https://www.starlette.io/" class="external-link" target="_blank"><strong>Starlette </strong></a>と完全に互換性があります（そしてベースになっています）。したがって、追加のStarletteコードがあれば、それも機能します。
+**FastAPI** は、<a href="https://www.starlette.io/" class="external-link" target="_blank"><strong>Starlette </strong></a>と完全に互換性があります（そしてベースになっています）。したがって、追加のStarletteコードがあれば、それも機能します。
 
 `FastAPI`は実際には`Starlette`のサブクラスです。したがって、Starletteをすでに知っているか使用している場合は、ほとんどの機能が同じように機能します。
 
-**FastAPI**を使用すると、以下のような、**Starlette**のすべての機能を利用できます（FastAPIはStarletteを強化したものにすぎないため）:
+**FastAPI** を使用すると、以下のような、 **Starlette** のすべての機能を利用できます（FastAPIはStarletteを強化したものにすぎないため）:
 
-* 見事なパフォーマンス。<a href="https://github.com/encode/starlette#performance" class="external-link" target="_blank"> **NodeJS**および**Go**に匹敵する、最速のPythonフレームワークの1つです。</a>
+* 見事なパフォーマンス。<a href="https://github.com/encode/starlette#performance" class="external-link" target="_blank"> **NodeJS** および **Go** に匹敵する、最速のPythonフレームワークの1つです。</a>
 
 * **WebSocket**のサポート
 * **GraphQL**のサポート
@@ -180,15 +180,15 @@ FastAPIには非常に使いやすく、非常に強力な<abbr title='also know
 
 ## Pydanticの特徴
 
-**FastAPI**は<a href="https://docs.pydantic.dev/" class="external-link" target="_blank"><strong>Pydantic </strong></a>と完全に互換性があります（そしてベースになっています）。したがって、追加のPydanticコードがあれば、それも機能します。
+**FastAPI** は<a href="https://docs.pydantic.dev/" class="external-link" target="_blank"><strong>Pydantic </strong></a>と完全に互換性があります（そしてベースになっています）。したがって、追加のPydanticコードがあれば、それも機能します。
 
 データベースのために<abbr title = "Object-Relational Mapper">ORM</abbr>sや、<abbr title = "Object-Document Mapper">ODM</abbr>sなどの、Pydanticに基づく外部ライブラリを備えています。
 
-これは、すべてが自動的に検証されるため、多くの場合、リクエストから取得したオブジェクトを**データベースに直接**渡すことができるということを意味しています。
+これは、すべてが自動的に検証されるため、多くの場合、リクエストから取得したオブジェクトを **データベースに直接** 渡すことができるということを意味しています。
 
-同じことがその逆にも当てはまり、多くの場合、データベースから取得したオブジェクトを**クライアントに直接**渡すことができます。
+同じことがその逆にも当てはまり、多くの場合、データベースから取得したオブジェクトを **クライアントに直接** 渡すことができます。
 
-**FastAPI**を使用すると、**Pydantic**のすべての機能を利用できます（FastAPIがPydanticに基づいてすべてのデータ処理を行っているため）。
+**FastAPI** を使用すると、 **Pydantic** のすべての機能を利用できます（FastAPIがPydanticに基づいてすべてのデータ処理を行っているため）。
 
 * **brainfuckなし**：
     * スキーマ定義のためのマイクロ言語を新たに学習する必要はありません。
@@ -198,7 +198,7 @@ FastAPIには非常に使いやすく、非常に強力な<abbr title='also know
 * **複雑な構造**を検証：
     * 階層的なPydanticモデルや、Pythonの「`typing`」の「`list`」と「`dict`」などの利用。
     * バリデーターにより、複雑なデータスキーマを明確かつ簡単に定義、チェックし、JSONスキーマとして文書化できます。
-    * 深く**ネストされたJSON**オブジェクトを作成し、それらすべてを検証してアノテーションを付けることができます。
+    * 深く **ネストされたJSON** オブジェクトを作成し、それらすべてを検証してアノテーションを付けることができます。
 * **拡張可能**：
     * Pydanticでは、カスタムデータ型を定義できます。または、バリデーターデコレーターで装飾されたモデルのメソッドを使用して検証を拡張できます。
 * テストカバレッジ 100%。

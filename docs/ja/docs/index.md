@@ -65,25 +65,25 @@ FastAPI は、Pythonの標準である型ヒントに基づいてPython 以降�
 
 ## 評価
 
-"_[...] 最近 **FastAPI** を使っています。 [...] 実際に私のチームの全ての **Microsoft の機械学習サービス** で使用する予定です。 そのうちのいくつかのコアな**Windows**製品と**Office**製品に統合されつつあります。_"
+"_[...] 最近 **FastAPI** を使っています。 [...] 実際に私のチームの全ての **Microsoft の機械学習サービス** で使用する予定です。 そのうちのいくつかのコアな **Windows** 製品と **Office** 製品に統合されつつあります。_"
 
 <div style="text-align: right; margin-right: 10%;">Kabir Khan - <strong>Microsoft</strong> <a href="https://github.com/fastapi/fastapi/pull/26" target="_blank"><small>(ref)</small></a></div>
 
 ---
 
-"_FastAPIライブラリを採用し、クエリで**予測値**を取得できる**REST**サーバを構築しました。 [for Ludwig]_"
+"_FastAPIライブラリを採用し、クエリで **予測値** を取得できる **REST** サーバを構築しました。 [for Ludwig]_"
 
 <div style="text-align: right; margin-right: 10%;">Piero Molino, Yaroslav Dudin, and Sai Sumanth Miryala - <strong>Uber</strong> <a href="https://eng.uber.com/ludwig-v0-2/" target="_blank"><small>(ref)</small></a></div>
 
 ---
 
-"_**Netflix** は、**危機管理**オーケストレーションフレームワーク、**Dispatch**のオープンソースリリースを発表できることをうれしく思います。 [built with **FastAPI**]_"
+"_ **Netflix** は、 **危機管理** オーケストレーションフレームワーク、 **Dispatch** のオープンソースリリースを発表できることをうれしく思います。 [built with **FastAPI** ]_"
 
 <div style="text-align: right; margin-right: 10%;">Kevin Glisson, Marc Vilanova, Forest Monsen - <strong>Netflix</strong> <a href="https://netflixtechblog.com/introducing-dispatch-da4b8a2a8072" target="_blank"><small>(ref)</small></a></div>
 
 ---
 
-"_私は**FastAPI**にワクワクしています。 めちゃくちゃ楽しいです！_"
+"_私は **FastAPI** にワクワクしています。 めちゃくちゃ楽しいです！_"
 
 <div style="text-align: right; margin-right: 10%;">Brian Okken - <strong><a href="https://pythonbytes.fm/episodes/show/123/time-to-right-the-py-wrongs?time_in_sec=855" target="_blank">Python Bytes</a> podcast host</strong> <a href="https://twitter.com/brianokken/status/1112220079972728832" target="_blank"><small>(ref)</small></a></div>
 
@@ -95,9 +95,9 @@ FastAPI は、Pythonの標準である型ヒントに基づいてPython 以降�
 
 ---
 
-"_REST API を構築するための**モダンなフレームワーク**を学びたい方は、**FastAPI** [...] をチェックしてみてください。 [...] 高速で, 使用、習得が簡単です。[...]_"
+"_REST API を構築するための **モダンなフレームワーク** を学びたい方は、 **FastAPI** [...] をチェックしてみてください。 [...] 高速で, 使用、習得が簡単です。[...]_"
 
-"_私たちの**API**は**FastAPI**に切り替えました。[...] きっと気に入ると思います。 [...]_"
+"_私たちの **API** は **FastAPI** に切り替えました。[...] きっと気に入ると思います。 [...]_"
 
 <div style="text-align: right; margin-right: 10%;">Ines Montani - Matthew Honnibal - <strong><a href="https://explosion.ai" target="_blank">Explosion AI</a> founders - <a href="https://spacy.io" target="_blank">spaCy</a> creators</strong> <a href="https://twitter.com/_inesmontani/status/1144173225322143744" target="_blank"><small>(ref)</small></a> - <a href="https://twitter.com/honnibal/status/1144031421859655680" target="_blank"><small>(ref)</small></a></div>
 
@@ -109,7 +109,7 @@ FastAPI は、Pythonの標準である型ヒントに基づいてPython 以降�
 
 もし Web API の代わりにターミナルで使用する<abbr title="Command Line Interface">CLI</abbr>アプリを構築する場合は、<a href="https://typer.tiangolo.com/" class="external-link" target="_blank">**Typer**</a>を確認してください。
 
-**Typer**は FastAPI の弟分です。そして、**CLI 版 の FastAPI**を意味しています。
+**Typer** は FastAPI の弟分です。そして、 **CLI 版 の FastAPI** を意味しています。
 
 ## 必要条件
 
@@ -315,13 +315,13 @@ def update_item(item_id: int, item: Item):
 
 ### まとめ
 
-要約すると、関数のパラメータとして、パラメータやボディ などの型を**一度だけ**宣言します。
+要約すると、関数のパラメータとして、パラメータやボディ などの型を **一度だけ** 宣言します。
 
 標準的な最新の Python の型を使っています。
 
 新しい構文や特定のライブラリのメソッドやクラスなどを覚える必要はありません。
 
-単なる標準的な**3.8 以降の Python**です。
+単なる標準的な **3.8 以降の Python** です。
 
 例えば、`int`の場合:
 
@@ -363,7 +363,7 @@ item: Item
 
 ---
 
-コード例に戻りましょう、**FastAPI** は次のようになります:
+コード例に戻りましょう、 **FastAPI** は次のようになります:
 
 - `GET`および`PUT`リクエストのパスに`item_id` があることを検証します。
 - `item_id`が`GET`および`PUT`リクエストに対して`int` 型であることを検証します。
@@ -412,11 +412,11 @@ item: Item
 
 **ネタバレ注意**: チュートリアル - ユーザーガイドは以下の情報が含まれています:
 
-- **ヘッダー**、**クッキー**、**フォームフィールド**、**ファイル**などの他の場所からの **パラメータ** 宣言。
-- `maximum_length`や`regex`のような**検証や制約**を設定する方法。
+- **ヘッダー** 、**クッキー** 、**フォームフィールド** 、**ファイル** などの他の場所からの **パラメータ** 宣言。
+- `maximum_length`や`regex`のような **検証や制約** を設定する方法。
 - 非常に強力で使いやすい <abbr title="also known as components, resources, providers, services, injectables">**依存性注入**</abbr>システム。
-- **JWT トークン**を用いた **OAuth2** や **HTTP Basic 認証** のサポートを含む、セキュリティと認証。
-- **深くネストされた JSON モデル**を宣言するためのより高度な（しかし同様に簡単な）技術（Pydantic のおかげです）。
+- **JWT トークン** を用いた **OAuth2** や **HTTP Basic 認証** のサポートを含む、セキュリティと認証。
+- **深くネストされた JSON モデル** を宣言するためのより高度な（しかし同様に簡単な）技術（Pydantic のおかげです）。
 - 以下のようなたくさんのおまけ機能(Starlette のおかげです):
   - **WebSockets**
   - **GraphQL**
@@ -427,7 +427,7 @@ item: Item
 
 ## パフォーマンス
 
-独立した TechEmpower のベンチマークでは、Uvicorn で動作する**FastAPI**アプリケーションが、<a href="https://www.techempower.com/benchmarks/#section=test&runid=7464e520-0dc2-473d-bd34-dbdfd7e85911&hw=ph&test=query&l=zijzen-7" class="external-link" target="_blank">Python フレームワークの中で最も高速なものの 1 つ</a>であり、Starlette と Uvicorn（FastAPI で内部的に使用されています）にのみ下回っていると示されています。
+独立した TechEmpower のベンチマークでは、Uvicorn で動作する **FastAPI** アプリケーションが、<a href="https://www.techempower.com/benchmarks/#section=test&runid=7464e520-0dc2-473d-bd34-dbdfd7e85911&hw=ph&test=query&l=zijzen-7" class="external-link" target="_blank">Python フレームワークの中で最も高速なものの 1 つ</a>であり、Starlette と Uvicorn（FastAPI で内部的に使用されています）にのみ下回っていると示されています。
 
 詳細は<a href="https://fastapi.tiangolo.com/benchmarks/" class="internal-link" target="_blank">ベンチマーク</a>セクションをご覧ください。
 
